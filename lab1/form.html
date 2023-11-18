@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="submit_form.php" method="post">
+        <li><label for="name">ФИО заявителя:</label>
+        <input type="text" id="name" name="name" required /></li>
+  
+        <li><label for="phone">Телефон:</label>
+        <input type="tel" id="phone" name="phone" required /></li>
+  
+        <li><label for="email">Адрес электронной почты:</label>
+        <input type="email" id="email" name="email" required /></li>
+
+        <li><label for="email">Адрес объекта:</label>
+        <input type="email" id="adress" name="adress" required /></li>
+
+        <label for="interier">Выберите форму взаимодействия</label>
+        <select id="interier" name="interier">
+        <option value="По почте">По почте</option>
+        <option value="По телефону">По телефону</option>
+        <option value="Другое">Другое</option>
+        </select>
+<br>
+        <form action="/submit" method="post">
+        <label for="comment">Коментарий к дизайнеру:</label>
+        <textarea
+        id="comment"
+        name="comment"
+        rows="8"
+        placeholder="Введите Ваш комментарий"
+        required
+        maxlength="1000"
+        wrap="hard"
+        ></textarea>
+        <br>
+        <input type="submit" value="Оформить заказ" />
+        <input type="reset" value="Очистить форму" />
+      </form>  
+</body>
+</html>
