@@ -32,7 +32,7 @@ body {
 
   p{
     font-family: monospace;
-    font-size 90%;
+    font-size: large;
     background: #471232;
     color: #ddd;
   }
@@ -148,7 +148,7 @@ h2+table{
   margin: 20px auto;
 }
 th,td{
-  border: 1px solid #ddd;
+  border: 1px solid #e7e4e4;
   padding: 8px;
   text-align: left;
 }
