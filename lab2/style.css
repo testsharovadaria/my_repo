@@ -35,7 +35,7 @@ body {
     padding: 20px;
   }
   
-  .books {
+  .interier {
     display: flex;
   }
   
@@ -56,11 +56,11 @@ body {
     display: flex;
   }
   
-  .card__book {
+  .card__interier {
     text-decoration: none;
     color: black;
   }
-  .card__book:hover {
+  .card__interier {
     color: #b78f1f;
   }
   
@@ -110,7 +110,7 @@ body {
     margin-top: 10px;
     padding: 10px;
     background-color: #333;
-    color: white;
+    color: rgb(115, 7, 7);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -121,9 +121,18 @@ body {
     background-color: #218e09;
   }
   
-  .book li a {
+  .interier li a {
     color: black;
   }
   
-  .book li a:hover {
+  .interier li a:hover {
     color: #0026ff;}
+
+    table {
+      border-collapse: collapse;
+    }
+    table td{
+      border:1px solid;
+    }
+
+   
